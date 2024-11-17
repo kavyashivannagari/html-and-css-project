@@ -34,8 +34,8 @@
     cursor: pointer;
 }
 .headertop_right > span{
-    font-size: 0.9rem;
-    border: 1.5px solid white;
+    font-size: 1rem;
+    border: 1px solid white;
     padding: 15px 25px;
     border-radius: 10px;
     color: white;
@@ -305,7 +305,10 @@
 }
  @media  (max-width:400px){ 
     *{
+        margin:0px;
+        padding: 0px;
         box-sizing: border-box;
+        max-width: 100%;
     }
     .header{
         height: 450px;
@@ -322,7 +325,7 @@
         display: none;
         gap: 10px;
         align-items: center;
-        top: 65px;
+        top: 70px;
         left: 0px;
         width: 100%;
     }
@@ -487,9 +490,11 @@
      
      }
   @media (min-width:401px) and (max-width:768px){
-    *{margin:0px;
+    *{
+         margin:0px;
         padding: 0px;
         box-sizing: border-box;
+        max-width: 100%;
     }
     .header{
         height: 450px;
@@ -674,6 +679,8 @@
       
 @media (min-width:769px) and (max-width:1080px){
     *{
+        margin:0px;
+        padding: 0px;
         box-sizing: border-box;
     }
     .header{
@@ -825,6 +832,8 @@
 @media (min-width:1081px) and (max-width:1440px){ 
 
     *{
+        margin:0px;
+        padding: 0px;
         box-sizing: border-box;
     }
   .review>p{
@@ -851,6 +860,8 @@
 }   
 @media (min-width:1441px) and (max-width:2560px){
     *{
+        padding: 0px;
+        margin: 0px;
         box-sizing: border-box;
     }
     .review>p{
@@ -863,6 +874,20 @@
         padding: 0px  450px;
       }
 } 
+@media (min-width:2561){
+    *{
+        box-sizing: border-box;
+    }
+    .review>p{
+        padding:0px 350px;
+      }
+      .services_left>p{
+        padding: 0px 70px;
+      }
+      .contact>p{
+        padding: 0px  450px;
+      } 
+}
 
 
 
